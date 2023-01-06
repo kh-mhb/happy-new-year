@@ -3,3 +3,8 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* first section related style */
+.first-section {
+    background-image: url("images/banner/banner1.png");
+}
