@@ -15,13 +15,14 @@
     background-size: cover;
     background-position: center;
     text-align: right;
+    margin-bottom: 100px;
 
 
 
 
 }
 
-.first-section-content {}
+
 
 .first-section-heading {
     font-weight: 700;
@@ -63,3 +64,68 @@
 
 /* first section style complete */
 /* ---------------------------------------------------------------------- */
+/* second section related design */
+.personal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.personal-photo {
+    /* padding-left: 170px; */
+    margin-left: 178px;
+}
+
+.my-heading {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 14px;
+    padding-top: 24px;
+}
+
+.my-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.my-rules {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    list-style-type: style outside;
+    list-style-type: "\1F44D";
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.my-plan {
+    margin-top: 100px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 100px;
+}
+
+.my-plan-heading {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-top: 15px;
+
+
+}
+
+.plan-list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.single-plan {
+    text-align: center;
+}
