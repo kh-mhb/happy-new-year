@@ -129,3 +129,56 @@
 .single-plan {
     text-align: center;
 }
+
+/* gradient related style sheet */
+.gradient {
+    margin-top: 100px;
+    background-color: #000000;
+    background-image: url("images/watch.png"), url("images/gradient3.png");
+    background-repeat: no-repeat, no-repeat;
+
+    min-height: 300px;
+    min-width: 1140px;
+
+
+}
+
+/* my own section part */
+.my-own-section {
+    background-color: antiquewhite;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+
+}
+
+.personal-section-tittle {
+
+
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+
+.quality-list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.single-item {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.quality-details {
+    padding: 5px;
+}
