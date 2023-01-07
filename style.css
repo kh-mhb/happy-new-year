@@ -133,9 +133,12 @@
 /* gradient related style sheet */
 .gradient {
     margin-top: 100px;
-    background-color: #000000;
-    background-image: url("images/watch.png"), url("images/gradient3.png");
-    background-repeat: no-repeat, no-repeat;
+
+    background-image: linear-gradient(to left, rgba(255, 12, 0, 0.2), rgba(255, 0, 0, 0.6)), url("images/watch.png");
+    background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
 
     min-height: 300px;
     min-width: 1140px;
